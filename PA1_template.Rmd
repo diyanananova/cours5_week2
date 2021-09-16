@@ -9,6 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r global_options}
+knitr::opts_chunk$set(fig.path='Figs/')
+```
+
 ## 1. Loading and preprocessing the data
 
 #knitr
