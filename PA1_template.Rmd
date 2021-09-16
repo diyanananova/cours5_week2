@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1. Loading and preprocessing the data
 
+#knitr
 #chron
 #lubridate
 #dplyr
@@ -27,7 +28,7 @@ head(activity_MD)
 
 ```{r, message=FALSE, echo=FALSE}
 
-
+library(knitr)
 library(chron)
 library(lubridate)
 library(dplyr)
